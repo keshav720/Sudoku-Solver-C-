@@ -1,25 +1,4 @@
-.Header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 60px;
-    background-color: blanchedalmond;
-} 
-#logo{
-    width: 100px;
-    height: 100px;
-}
-#logo img{
-    width: 100%;
-}
 
-#name{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    font-size: 50px;
-    font-weight: bold;
-}
 
 .Heading{
     width: 100%;
@@ -35,7 +14,6 @@
     flex-direction: row;
     max-width: 578px;
     flex-wrap: wrap;
-
     margin: 10px auto ;
 }
 
@@ -57,21 +35,88 @@
     justify-content: center;
     width: 100%;    
     margin-bottom: 80px;
+   
 }
 
-#GetPuzzle,#SolvePuzzle{
-    display: inline-block;
-    text-decoration: none;
+
+.button-2 {
+    appearance: none;
+    background-color: #0276FF;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
     color: #fff;
-    font-weight: bold;
-    background-color: #538fbe;
-    padding: 10px 35px;
-    font-size: 24px;
-    border: 1px solid #2d6898;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
-    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin: 10px;
 }
 
+.button-2:hover {
+    background-color:#1C84FF;
+}
+
+
+
+.button-2:active {
+    background-color:#006AE8;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+
+
+.button-3 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin: 10px;
+}
+
+
+
+.button-3:hover {
+    background-color: #2c974b;
+}
+
+
+
+.button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
 .box1{
     background-color: #1520A6;
     border: 2px solid  white;
